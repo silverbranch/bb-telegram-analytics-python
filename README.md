@@ -2,6 +2,15 @@
 
 Async Python SDK for sending Telegram bot analytics events to BB Analytics API (bb-bot.ru / bb.center).
 
+## Prompt Library (IDE assistants)
+
+Copy-paste prompts for Cursor, GitHub Copilot, or other IDE assistants live in `./prompts/`. Use them to integrate the SDK into new or existing bots.
+
+- **[prompts/00_overview.md](prompts/00_overview.md)** — SDK overview, ASK vs PLAN prompts, env vars, event contract
+- **[prompts/ask/ask_universal.md](prompts/ask/ask_universal.md)** — Universal prompt for any async Python Telegram bot
+- **[prompts/plan/plan_universal.md](prompts/plan/plan_universal.md)** — Full architecture plan for a new bot
+- **[prompts/troubleshooting/](prompts/troubleshooting/)** — 401/422 errors, Docker networking
+
 ## Installation
 
 From GitHub:
